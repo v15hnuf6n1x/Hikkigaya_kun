@@ -18,9 +18,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', ''))
-BOT_TOKEN = environ.get('BOT_TOKEN', ''))
+API_ID = int(environ.get('API_ID', '21165589'))
+API_HASH = environ.get('API_HASH', '8cc762f4873e84a7cf0cbfd66a07244b'))
+BOT_TOKEN = environ.get('BOT_TOKEN', '5934184793:AAG5SKB_O_hO6h2a4mVVQlerrPt6bXCU6NM'))
 PORT = environ.get("PORT", "8080")
 
 # Bot settings
@@ -51,8 +51,8 @@ SUPPORT_CHAT_ID = -1001792675255
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://joekery:vinland@joekery.xolgb7u.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "joekery")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'FILES')
 
 # Others
