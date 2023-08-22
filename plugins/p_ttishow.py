@@ -26,7 +26,7 @@ async def save_group(bot, message):
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
-                text='<b>CHAT NOT ALLOWED 🐞\n\nMy admin didn't want  me to work here ! If you want to know more about it contact support..</b>',
+                text="<b>CHAT NOT ALLOWED 🐞\n\nMy admin didn't want  me to work here ! If you want to know more about it contact support..</b>",
                 reply_markup=reply_markup,
             )
 
@@ -90,7 +90,7 @@ async def leave_a_chat(bot, message):
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
             chat_id=chat,
-            text='<b>Hello Friends, \nMy admin has told me to leave from group so i want to go! If you wanna add me again contact my 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 GROUP.</b>',
+            text="<b>Hello Friends, \nMy admin has told me to leave from group so i want to go! If you wanna add me again contact my 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 GROUP.</b>",
             reply_markup=reply_markup,
         )
 
