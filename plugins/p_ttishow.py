@@ -26,7 +26,7 @@ async def save_group(bot, message):
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
-                text="<b>CHAT NOT ALLOWED 🐞\n\nMy admin didn't want  me to work here ! If you want to know more about it contact support..</b>",
+                text="<b>CHAT NOT ALLOWED 🐞\n\nMy admin dont want  me to work here ! If you want to know more about it contact support..</b>",
                 reply_markup=reply_markup,
             )
 
